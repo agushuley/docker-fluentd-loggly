@@ -1,5 +1,8 @@
 dataferret/fluentd-loggly
 =========================
+![Latest tag](https://img.shields.io/github/tag/dataferret/docker-fluentd-loggly.svg?style=flat)
+![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
+[![](https://badge.imagelayers.io/dataferret/fluentd-loggly:latest.svg)](https://imagelayers.io/?images=dataferret/fluentd-loggly:latest 'Get your own badge on imagelayers.io')
 
 Fluentd logging endpoint transcription to Loggly service.  In addition to
 the standard fields _container_id_ and _container_name_, it adds the following
