@@ -1,5 +1,5 @@
 FROM fluent/fluentd:latest
-MAINTAINER Ted Chen <ted@nephilagraphic.com>
+MAINTAINER Ted Chen <tedlchen@gmail.com>
 
 ENV TOKEN=""
 ENV NODE_HOSTNAME=""
