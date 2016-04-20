@@ -18,7 +18,9 @@ Requires Docker Engine 1.8+
 Step N: Start loggly
 --------------------
 
-        docker run -d --name loggly \
+        docker run -d \
+            --restart always \
+            --name loggly \
             -p 24224:24224 \
             -e TOKEN:ABCD-1234-ABCD-1234 \
             -e HOST:`hostname` \
