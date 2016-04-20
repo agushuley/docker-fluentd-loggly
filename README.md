@@ -22,10 +22,10 @@ Step N: Start loggly
             --restart always \
             --name loggly \
             -p 24224:24224 \
-            -e TOKEN:ABCD-1234-ABCD-1234 \
-            -e HOST:`hostname` \
-            -e LOGGLY_TAG:docker,container \
-            dataferret/fluentd-loggly
+            -e TOKEN=ABCD-1234-ABCD-1234 \
+            -e NODE_HOSTNAME=$(hostname) \
+            -e LOGGLY_TAG=docker \
+            andriyg/fluentd-loggly
 
 * _TOKEN_ [required] is the Loggly API token.
 * _HOST_ [required] is required during creation for _node_hostname_ to be populated.
