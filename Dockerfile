@@ -12,6 +12,5 @@ USER root
 COPY docker-entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh
 
-USER ubuntu
 ENTRYPOINT ["/entrypoint.sh"]
 CMD [""]
